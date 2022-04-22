@@ -93,3 +93,13 @@ export function login(
     hide,
   }
 }
+
+export function webapp(
+  text: string,
+  web_app:{url:string}
+): any {
+  return {
+    text,
+    web_app
+  }
+}
